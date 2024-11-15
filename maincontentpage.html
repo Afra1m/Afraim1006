@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Макет сайта</title>
+    <link rel="stylesheet" href="stylesformainproject.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="https://avatars.mds.yandex.net/i?id=a729d38e88b3b633552941294e7ea118_sr-12471733-images-thumbs&n=13" width="48" height="48" alt="логотип">
+            </div>
+            <div class="title">
+                <p>Группа ЭФБО-05-23</p>
+                <p>Пивоваров Александр Константинович</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav">
+        <a href="./mainproject.html">Главная</a>
+        <a href="./maincontentpage.html">Первый семестр</a>
+        <a href="">Второй семестр</a>
+        <a href="./services.html">Услуги</a>
+        <a href="">Авторизация</a>
+    </div>
+
+    <div class="content">
+        <aside class="sidebar">
+            <h2>Навигация по странице</h2>
+            <ul>
+                <li><a href="#lection">Лекции</a></li>
+                <li><a href="#practice">Практики</a></li>
+                <li><a href="#map">Адрес вуза</a></li>
+                <li><a href="#program">Рабочая программа</a></li>
+            </ul>
+        </aside>
+
+        <main class="main">
+            <div class="section" id="lection">
+                <h2 id="firstsemak">Первый семестр</h2>
+                <h3>Лекции</h3>
+                <div class="table">
+                    <div class="row header-row">
+                        <div class="cell">Номер</div>
+                        <div class="cell">Тема</div>
+                        <div class="cell">Посещение</div>
+                    </div>
+                    <div class="row odd-row">
+                        <div class="cell">1</div>
+                        <div class="cell">Введение в HTML</div>
+                        <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    </div>
+                    <div class="row even-row">
+                        <div class="cell">2</div>
+                        <div class="cell">Введение в CSS</div>
+                        <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    </div>
+                    <div class="row odd-row">
+                        <div class="cell">3</div>
+                        <div class="cell">JavaScript: основы</div>
+                        <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    </div>
+                    <div class="row even-row">
+                        <div class="cell">4</div>
+                        <div class="cell">DOM и его манипуляции</div>
+                        <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    </div>
+                    <div class="row odd-row">
+                        <div class="cell">5</div>
+                        <div class="cell">Работа с API</div>
+                        <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    </div>
+                    <div class="row even-row">
+                        <div class="cell">6</div>
+                        <div class="cell">Фреймворки</div>
+                        <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    </div>
+                    <div class="row odd-row">
+                        <div class="cell">7</div>
+                        <div class="cell">Инструменты разработчика</div>
+                        <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    </div>
+                    <div class="row even-row">
+                        <div class="cell">8</div>
+                        <div class="cell">Деплой приложения</div>
+                        <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section" id="practice">
+                <h3>Практика</h3>
+                <div class="row header-row">
+                    <div class="cell">Номер</div>
+                    <div class="cell">Тема</div>
+                    <div class="cell">Посещение</div>
+                    <div class="cell">Выполнение</div>
+                </div>
+                <div class="row odd-row">
+                    <div class="cell">1</div>
+                    <div class="cell">Основы языка HTML</div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                </div>
+                <div class="row even-row">
+                    <div class="cell">2</div>
+                    <div class="cell">Формы и кнопки в HTML</div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                </div>
+                <div class="row odd-row">
+                    <div class="cell">3</div>
+                    <div class="cell">Таблицы и интерактивные методы в HTML</div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                </div>
+                <div class="row even-row">
+                    <div class="cell">4</div>
+                    <div class="cell">Таблицы и интерактивные методы в HTML</div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                </div>
+                <div class="row odd-row">
+                    <div class="cell">5</div>
+                    <div class="cell">Таблицы и интерактивные методы в HTML</div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                </div>
+                <div class="row even-row">
+                    <div class="cell">6</div>
+                    <div class="cell">Таблицы и интерактивные методы в HTML</div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                </div>
+                <div class="row odd-row">
+                    <div class="cell">7</div>
+                    <div class="cell">Адаптивная вёрстка</div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                </div>
+                <div class="row even-row">
+                    <div class="cell">8</div>
+                    <div class="cell">Bootstrap</div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                </div>
+                <div class="row odd-row">
+                    <div class="cell">9</div>
+                    <div class="cell">Основы языка JavaScript</div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                </div>
+                <div class="row even-row">
+                    <div class="cell">10</div>
+                    <div class="cell">Базовые задачи на JS</div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                </div>
+                <div class="row odd-row">
+                    <div class="cell">11</div>
+                    <div class="cell">DOM-структура приложений и работа с объектами в языке JS</div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                </div>
+                <div class="row even-row">
+                    <div class="cell">12</div>
+                    <div class="cell">Встраивание скриптов</div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                </div>
+                <div class="row odd-row">
+                    <div class="cell">13</div>
+                    <div class="cell">Отладка сценариев</div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                </div>
+                <div class="row even-row">
+                    <div class="cell">14</div>
+                    <div class="cell">Анимации и работа с ними</div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                </div>
+                <div class="row odd-row">
+                    <div class="cell">15</div>
+                    <div class="cell">GitHub</div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                </div>
+                <div class="row even-row">
+                    <div class="cell">16</div>
+                    <div class="cell">Защита проекта</div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                    <div class="cell"><input type="checkbox" class="checkbox"></div>
+                </div>
+                
+            </div>
+
+            <div class="section" id="map">
+                <h2 id="map">Занятия проходят по адресу</h2>
+                <div class="map" id="map-container"></div>
+            </div>
+
+            <div class="section" id="program">
+                <div class="program">
+                    <h2 id="program">Рабочая Программа</h2>
+                    <textarea placeholder="Введите текст рабочей программы..."></textarea>
+                    <div>
+                        <label for="file-upload">Прикрепите PDF файл:</label>
+                        <input type="file" id="file-upload" accept="application/pdf">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="footer">
+        <p>© Пивоваров Александр Константинович, 2024</p>
+    </div>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+    var map = L.map('map-container').setView([55.751244, 37.618423], 15);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© OpenStreetMap'
+    }).addTo(map);
+    var marker = L.marker([55.751244, 37.618423]).addTo(map);
+    marker.bindPopup("<b>Здесь находится ваш вуз!</b>").openPopup();
+</script>
+
+</body>
+</html>
